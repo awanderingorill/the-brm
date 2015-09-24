@@ -28,7 +28,7 @@
     'home': {
       init: function() {
         $('header').click(function(){
-          $(this).siblings().hide();
+          $('.brm-gallery').slideToggle();
         })
       },
       finalize: function() {
