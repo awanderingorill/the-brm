@@ -27,7 +27,9 @@
     // Home page
     'home': {
       init: function() {
-        // JavaScript to be fired on the home page
+        $('header').click(function(){
+          $(this).siblings().hide();
+        })
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS

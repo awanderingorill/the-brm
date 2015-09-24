@@ -19,10 +19,12 @@ h1 {
 .entry-title {
 	color: #FFFFFF;
 	font-family: "Alte Haas Grotesk";
+	cursor: pointer;
 }
 
 .image-description {
 	font-family: "Circular Std";
+	padding-bottom: 30px;
 }
 
 .brm-gallery {
@@ -33,4 +35,8 @@ h1 {
 
 .production {
 	display: none;
+}
+
+#E1b {
+	stroke-width: 1 !important;
 }
